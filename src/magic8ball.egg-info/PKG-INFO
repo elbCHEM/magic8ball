@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: magic8ball
+Version: 0.1.0
+Summary: A simple Magic 8 Ball command-line application.
+Author-email: elb <elb@chem.ku.dk>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 0 - Planning
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown

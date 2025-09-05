@@ -1,0 +1,9 @@
+pyproject.toml
+src/magic8ball/__init__.py
+src/magic8ball/__main__.py
+src/magic8ball.egg-info/PKG-INFO
+src/magic8ball.egg-info/SOURCES.txt
+src/magic8ball.egg-info/dependency_links.txt
+src/magic8ball.egg-info/entry_points.txt
+src/magic8ball.egg-info/top_level.txt
+tests/test_initial.py
