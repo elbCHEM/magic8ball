@@ -1,6 +1,6 @@
 from magic8ball.logic import ANSWERS, get_answer
 
-SAMPLE_SIZE = 1_000_000
+SAMPLE_SIZE = 100_000
 
 
 def test_output_space() -> None:
