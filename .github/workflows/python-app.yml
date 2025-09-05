@@ -37,6 +37,6 @@ jobs:
           python -m pip install .
     
       - name: Test with pytest
-        run: pytest tests.py --doctest-modules --junitxml=junit/test-results-${{ matrix.python-version }}.xml
+        run: pytest --doctest-modules --junitxml=junit/test-results-${{ matrix.python-version }}.xml
       
       
