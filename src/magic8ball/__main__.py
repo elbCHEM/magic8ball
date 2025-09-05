@@ -1,9 +1,4 @@
-import click
-
-
-@click.command()
-def main() -> None:
-    print("Hello, World!")
+from magic8ball.flow import main
 
 
 if __name__ == '__main__':
