@@ -1,4 +1,4 @@
-from magic8ball.logic import get_answer
+from oracle.logic import get_answer
 
 
 MAX_QUESTIONS = 100
@@ -26,7 +26,7 @@ def main() -> None:
 
 
 def app_flow() -> None:
-    print("Welcome to the magic 8 ball. A place where all question will be answered.", end='\n\n')
+    print("Welcome. I am the oracle. I will answer all question. Please beware, you way not like what you hear.", end='\n\n')
 
     for n in range(1, MAX_QUESTIONS+1):
         userinput = input(PROMPT_STRING_FIRST_ITERATION if n == 0 else PROMPT_STRING_LATER_ITERATION).strip()

@@ -1,6 +1,6 @@
 import re
 import pytest
-from magic8ball.flow import PROPER_EXIT_STRING, main
+from oracle.flow import PROPER_EXIT_STRING, main
 
 
 

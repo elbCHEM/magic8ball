@@ -1,4 +1,4 @@
-from magic8ball.flow import main
+from oracle.flow import main
 
 
 if __name__ == '__main__':

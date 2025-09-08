@@ -5,4 +5,4 @@ def test_trivial() -> None:
 
 
 def test_import() -> None:
-    import magic8ball as _
+    import oracle as _

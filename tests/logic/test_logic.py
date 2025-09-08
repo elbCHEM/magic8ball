@@ -1,4 +1,4 @@
-from magic8ball.logic import ANSWERS, get_answer
+from oracle.logic import ANSWERS, get_answer
 
 SAMPLE_SIZE = 100_000
 

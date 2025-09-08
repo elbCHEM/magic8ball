@@ -1,7 +1,7 @@
 import re
 import pytest
-from magic8ball.logic import ANSWERS
-from magic8ball.flow import TooManyQuestionAsked, app_flow
+from oracle.logic import ANSWERS
+from oracle.flow import TooManyQuestionAsked, app_flow
 
 
 RESPONCE_PATTERN = re.compile(r".*\"(.+)\".*")

@@ -1,6 +1,6 @@
 ```mermaid
 ---
-title: Magic 8 ball logic
+title: Oracle logic
 ---
 flowchart TD
     A@{shape: stadium, label: "Magic 8ball"}

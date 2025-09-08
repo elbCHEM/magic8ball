@@ -1,5 +1,5 @@
 import pytest
-from magic8ball.flow import MAX_QUESTIONS, TooManyQuestionAsked, app_flow
+from oracle.flow import MAX_QUESTIONS, TooManyQuestionAsked, app_flow
 
 
 def test_run(monkeypatch) -> None:
