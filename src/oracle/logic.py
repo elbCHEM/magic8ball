@@ -8,7 +8,7 @@ ANSWERS: list[LiteralString] = [
     "Definitly.",
     "Probaly.",
     "Absolutely.",
-    "Nothing have ever been more true."
+    "Nothing have ever been more true.",
 
     # Negative (5/20) (v)
     "No.",
@@ -22,7 +22,7 @@ ANSWERS: list[LiteralString] = [
     "That is up to you to decide.",
     "Maybe.",
     "That is very subjective.",
-    "It is not certain."
+    "It is not certain.",
 
     # Funny (5 / 20)
     "Why are you asking me?",
