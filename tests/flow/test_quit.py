@@ -1,12 +1,11 @@
-import re
 import pytest
 from oracle.flow import PROPER_EXIT_STRING, main
-
 
 
 @pytest.mark.parametrize('quitstring', ['', ' ', 'quit', 'QUIT', 'QuIt'])
 def test_quitting_program(monkeypatch, quitstring: str) -> None:
     last_string_printed = None
+    
     def savelastprint(string: str, **__) -> None:
         nonlocal last_string_printed
         last_string_printed = string
