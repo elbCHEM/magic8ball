@@ -1,2 +1,0 @@
-[console_scripts]
-magic8ball = magic8ball.__main__:main
