@@ -3,7 +3,7 @@
 title: Oracle logic
 ---
 flowchart TD
-    A@{shape: stadium, label: "Magic 8ball"}
+    A@{shape: stadium, label: "Oracle"}
     B@{shape: lean-l, label: Welcome user}
     C@{shape: sl-rect, label: Get question from user}
     D@{shape: diamond, label: Exit?}
